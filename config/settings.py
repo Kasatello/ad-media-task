@@ -19,6 +19,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    "rest_framework",
+
+    "spend",
+    "revenue"
 ]
 
 MIDDLEWARE = [
@@ -31,7 +36,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "djangoProject2.urls"
+ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
     {
