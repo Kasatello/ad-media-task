@@ -23,7 +23,7 @@ INSTALLED_APPS = [
     "rest_framework",
 
     "spend",
-    "revenue"
+    "revenue",
 ]
 
 MIDDLEWARE = [
